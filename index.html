@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="money.png" type="image/x-icon">
+  <title>Casa da Moeda</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Casa da Moeda</h1>
+    </header>
+    <main>
+      <section>
+        <div class="input-container">
+          <div class="label-container"><label for="input-currency">Moeda:</label></div>
+          <input type="text" class="inputs" id="input-currency" placeholder="Ex: BRL">
+        <span class="label-container"></div></span>
+        <div class="input-container">
+          <div class="label-container"><label for="input-currency">Valor referência:</label></div>
+          <input type="number" class="inputs" id="input-number" min="1" value="1" placeholder="Ex: 1">
+        </div>
+        <button id="btn">Enviar</button>
+      </section>
+      <section id="list-section">
+        <h2 id="sub-title"></h2>
+        <ul id="currency-list"></ul>
+      </section>
+    </main>
+  </div>
+  
+<script src="script.js"></script>
+</body>
+</html>

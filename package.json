@@ -1,0 +1,26 @@
+{
+  "name": "project-casa-da-moeda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victorhbm/project-casa-da-moeda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victorhbm/project-casa-da-moeda/issues"
+  },
+  "homepage": "https://github.com/Victorhbm/project-casa-da-moeda#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.5"
+  }
+}
